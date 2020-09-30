@@ -1,0 +1,173 @@
+\begin{figure}[!h]
+    \centering
+    \subfloat[\centering Results from Brute Force]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using Brute Force} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+ 4 & 2.2 & 0.00171175\\
+ 5 & 4.2 & 0.00398931\\
+ 6 & 5.8 & 0.00837035\\
+ 7 & 8.4 & 0.01956596\\
+ 8 & 10.2 & 0.0252787\\
+ 9 & 14.4 & 0.0552988\\
+ 10 & 17.0 & 0.123983\\
+ 11 & 20.6 & 0.3187208\\
+ \hline
+ \end{tabular}}
+    \qquad
+    \subfloat[\centering Result from Numpyeigensolver]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using NumpyEigenSolver} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+ 4 & 2.0 & 0.03210797\\
+5 & 4.0 & 0.02911586\\
+6 & 6.2 & 0.04032535\\
+7 & 8.8 & 0.0428786\\
+8 & 10.4 & 0.05665335\\
+9 & 14.0 & 0.08876233\\
+10 & 17.6 & 0.07041535\\
+11 & 21.0 & 0.09693064\\
+ \hline
+ \end{tabular}}
+ \qquad
+ \subfloat[\centering Result from VQE]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using VQE} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & 3.0 & 7.20037426\\
+5 & 4.0 & 7.21085033\\
+6 & 6.0 & 10.1487354\\
+7 & 7.4 & 12.4346656\\
+8 & 11.0 & 12.996568\\
+9 & 13.2 & 18.523327\\
+10 & 17.0 & 28.67285\\
+11 & 21.0 & 76.80111\\
+ \hline
+ \end{tabular}}
+ \qquad
+ \subfloat[\centering Result from QAOA]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using QAOA} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & nan & 5.594628\\
+5 & 2.7 & 9.676859\\
+6 & 3.8 & 14.170653\\
+7 & 5.2 & 17.557465\\
+8 & 5.6 & 20.598435\\
+9 & 9.0 & 29.098247\\
+10 & 11.5 & 41.95962\\
+11 & 11.15 & 81.96604\\
+ \hline
+ \end{tabular}}
+    \caption{Results for Maxcut problem}
+    \label{fig:example}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\begin{figure}[!h]
+    \centering
+    \subfloat[\centering Results from Brute Force]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using Brute Force} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & 2.8 & 0.00019984\\
+5 & 2.8 & 0.00079822\\
+6 & 3.0 & 0.00239305\\
+7 & 3.4 & 0.00478811\\
+8 & 3.4 & 0.01057062\\
+9 & 3.8 & 0.02075328\\
+10 & 4.0 & 0.04687457\\
+11 & 4.0 & 0.10870928\\
+12 & 4.2 & 0.27925291\\
+13 & 4.6 & 0.67168731\\
+14 & 4.4 & 1.45947561\\
+15 & 4.8 & 3.31953463\\
+16 & 4.6 & 7.25877957\\
+ \hline
+ \end{tabular}}
+    \qquad
+    \subfloat[\centering Result from Numpyeigensolver]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using NumpyEigenSolver} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & 5.0 & 0.45718603\\
+5 & 4.8 & 0.44819903\\
+6 & 4.4 & 0.45936498\\
+7 & 4.6 & 0.44301471\\
+8 & 4.4 & 0.45758204\\
+9 & 4.4 & 0.46455082\\
+10 & 5.0 & 0.44282965\\
+11 & 4.4 & 0.43423829\\
+12 & 4.8 & 0.45558543\\
+13 & 5.0 & 0.44081678\\
+14 & 4.6 & 0.46576061\\
+15 & 4.6 & 0.44460515\\
+16 & 5.0 & 0.44940385\\
+ \hline
+ \end{tabular}}
+ \qquad
+ \subfloat[\centering Result from VQE]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using VQE} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & 2.6 & 1.0011150\\
+5 & 2.4 & 0.6855667\\
+6 & 2.8 & 0.7867008\\
+7 & 2.0 & 0.7140918\\
+8 & 2.8 & 0.7677377\\
+9 & 2.8 & 0.6221422\\
+10 & 2.4 & 0.8984308\\
+11 & 2.8 & 0.8934167\\
+12 & 2.4 & 0.9221569\\
+13 & 3.0 & 0.58702969\\
+14 & 2.8 & 0.80624938\\
+15 & 2.6 & 0.64766726\\
+16 & 2.4 & 0.64627118\\
+ \hline
+ \end{tabular}}
+ \qquad
+ \subfloat[\centering Result from QAOA]{\begin{tabular}{ |p{2cm}||p{2cm}|p{2cm}| }
+ \hline
+ \multicolumn{3}{|c|}{Cost and time using QAOA} \\
+ \hline
+ Number of vertices & Cost & Time\\
+ \hline
+4 & 2.2 & 0.3620345\\
+5 & 2.4 & 0.2557064\\
+6 & 3.0 & 0.2242002\\
+7 & 3.0 & 0.2379634\\
+8 & 3.0 & 0.5824418\\
+9 & 2.8 & 0.2321851\\
+10 & 2.4 & 0.2289874\\
+11 & 2.8 & 0.2455439\\
+12 & 3.0 & 0.2327770\\
+13 & 3.0 & 0.2399579\\
+14 & 2.6 & 0.2403570\\
+15 & 3.0 & 0.2188142\\
+16 & 2.8 & 0.2417535\\
+ \hline
+ \end{tabular}}
+    \caption{Results for Independent set of vertices problem}
+    \label{fig:example}
+\end{figure}
