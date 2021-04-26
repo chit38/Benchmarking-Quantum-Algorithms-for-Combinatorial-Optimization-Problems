@@ -1,2 +1,2 @@
-# Exploring-Quantum-Optimization-and-Simulation
+# Benchmarking Quantum Algorithms for Combinatorial Optimization Problems
 My GRM Project with IBM
